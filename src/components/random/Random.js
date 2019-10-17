@@ -6,25 +6,7 @@ class Random extends React.Component {
   state = {
     characters: [],
     isloaded: false,
-    tabCharacter: {
-    name: '',
-    height: '',
-    mass: '',
-    gender: '',
-    homeworld: '',
-    wiki: '',
-    image: '',
-    born: '',
-    bornLocation: '',
-    died: '',
-    diedLocation: '',
-    species: '',
-    hairColor: '',
-    eyeColor: '',
-    skinColor: '',
-    cybernetics: '',
-    }
-
+    tabCharacter: '',
   }
 
   getRandom = () => {
