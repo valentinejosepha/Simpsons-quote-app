@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Random from './components/Random';
+import Navbar from './components/Nav/Navbar';
+import Random from './components/random/Random';
 
 
 
