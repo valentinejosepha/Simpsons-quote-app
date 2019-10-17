@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Random.css"
-import DisplayRandom from './DisplayRandom'
+
 
 class Random extends React.Component {
   state = {
