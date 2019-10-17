@@ -2,6 +2,13 @@ import React from 'react';
 import './QuoteCard.css';
 
 class QuoteCard extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      favorite: false,
+    };  
+  }
+
   render () {
   return (
     <figure className="QuoteCard">
@@ -16,4 +23,6 @@ class QuoteCard extends React.Component {
     </figure>
   ) 
 }}
+
+export default QuoteCard;
 
